@@ -26,7 +26,6 @@
 		52BEEA0B1E05157800637559 /* ColoringBookUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 52BEEA0A1E05157800637559 /* ColoringBookUITests.m */; };
 		52BEEBFB1E05423600637559 /* PageItemController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52BEEBFA1E05423600637559 /* PageItemController.m */; };
 		52BEEBFE1E0553FF00637559 /* DrawerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52BEEBFD1E0553FF00637559 /* DrawerViewController.m */; };
-		52D8C5691E0BB95800D44CD9 /* folder in Resources */ = {isa = PBXBuildFile; fileRef = 52D8C5681E0BB95800D44CD9 /* folder */; };
 		52EC16C51E1BB15500AA7204 /* FloodFill.m in Sources */ = {isa = PBXBuildFile; fileRef = 52EC16C21E1BB15500AA7204 /* FloodFill.m */; };
 		52EC16C61E1BB15500AA7204 /* ImageCanvas.m in Sources */ = {isa = PBXBuildFile; fileRef = 52EC16C41E1BB15500AA7204 /* ImageCanvas.m */; };
 		52FB14ED1E0923740067BD4B /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FB14EC1E0923740067BD4B /* TableViewController.swift */; };
@@ -150,7 +149,6 @@
 		52BEEBFA1E05423600637559 /* PageItemController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PageItemController.m; sourceTree = "<group>"; };
 		52BEEBFC1E0553FF00637559 /* DrawerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawerViewController.h; sourceTree = "<group>"; };
 		52BEEBFD1E0553FF00637559 /* DrawerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawerViewController.m; sourceTree = "<group>"; };
-		52D8C5681E0BB95800D44CD9 /* folder */ = {isa = PBXFileReference; lastKnownFileType = folder; path = folder; sourceTree = "<group>"; };
 		52EC16C11E1BB15500AA7204 /* FloodFill.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FloodFill.h; sourceTree = "<group>"; };
 		52EC16C21E1BB15500AA7204 /* FloodFill.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FloodFill.m; sourceTree = "<group>"; };
 		52EC16C31E1BB15500AA7204 /* ImageCanvas.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageCanvas.h; sourceTree = "<group>"; };
@@ -324,7 +322,6 @@
 			children = (
 				842A89621F70EDC400730DA6 /* UIImage Scanline Floodfill */,
 				52EC16C01E1BB14700AA7204 /* imageVU */,
-				52D8C5681E0BB95800D44CD9 /* folder */,
 				52A0BD321E07C6C2008E1A60 /* swiftCode */,
 				842A8A3C1F70EEB800730DA6 /* Images */,
 				52BEE9E81E05157700637559 /* AppDelegate.h */,
@@ -655,7 +652,6 @@
 				845041E11F83A48200B7AE2C /* xxxworks3.png in Resources */,
 				84A87C551F7BC455004A0F51 /* Birds.png in Resources */,
 				84A87C571F7BC455004A0F51 /* Comics.png in Resources */,
-				52D8C5691E0BB95800D44CD9 /* folder in Resources */,
 				845041F51F83AB4E00B7AE2C /* shutterstock_389612521-[Converted].png in Resources */,
 				845041E01F83A48200B7AE2C /* xxxshutterstock_616091735.jpg in Resources */,
 				845041F61F83AB4E00B7AE2C /* shutterstock_390780931-[Converted].jpg in Resources */,
