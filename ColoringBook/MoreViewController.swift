@@ -29,6 +29,7 @@ class MoreViewController: UIViewController , FSPagerViewDataSource , FSPagerView
         self.dismiss(animated: true, completion: nil)
         print("okaoakaoka")
     }
+    //helloo
     
     let iPhoneImages = [ #imageLiteral(resourceName: "promoImage1") , #imageLiteral(resourceName: "promoImage2") , #imageLiteral(resourceName: "promoImage3") , #imageLiteral(resourceName: "promoImage4") , #imageLiteral(resourceName: "promoImage5") ]
     let iPhoneUrls = [ "https://itunes.apple.com/US/app/id979588667" , "https://itunes.apple.com/US/app/id993420685" , "https://itunes.apple.com/US/app/id1212839079" , "https://itunes.apple.com/US/app/id1191313662" , "https://itunes.apple.com/US/app/id1237148635" ]
