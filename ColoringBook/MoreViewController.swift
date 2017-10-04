@@ -37,6 +37,8 @@ class MoreViewController: UIViewController , FSPagerViewDataSource , FSPagerView
     
     let images = [ #imageLiteral(resourceName: "promoImage1") , #imageLiteral(resourceName: "promoImage2") , #imageLiteral(resourceName: "promoImage3") ]
     let names =  ["a","b","c"]
+    //hello
+    
     let urls = ["https://itunes.apple.com/US/app/id979588667","https://goo.gl/3a47ie","https://goo.gl/4JRW5J"]
     
     override func viewWillAppear(_ animated: Bool) {
