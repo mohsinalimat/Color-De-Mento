@@ -89,6 +89,8 @@
 		84A87C571F7BC455004A0F51 /* Comics.png in Resources */ = {isa = PBXBuildFile; fileRef = 84A87C511F7BC455004A0F51 /* Comics.png */; };
 		84A87C581F7BC455004A0F51 /* Culture.png in Resources */ = {isa = PBXBuildFile; fileRef = 84A87C521F7BC455004A0F51 /* Culture.png */; };
 		84A87C591F7BC455004A0F51 /* Fashion.png in Resources */ = {isa = PBXBuildFile; fileRef = 84A87C531F7BC455004A0F51 /* Fashion.png */; };
+		84BAA53F1F851F700048FB63 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84BAA53E1F851F700048FB63 /* CFNetwork.framework */; };
+		84BAA5411F851F780048FB63 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84BAA5401F851F780048FB63 /* WebKit.framework */; };
 		8E70DC1E1F6F8ED2002842BF /* Palette.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E70DC1D1F6F8ED2002842BF /* Palette.swift */; };
 		8E70DC241F6FD2D4002842BF /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E70DC231F6FD2D3002842BF /* Extensions.swift */; };
 		8E825E861F7D1C5500DD7D0E /* DatabaseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E825E821F7D1C5500DD7D0E /* DatabaseController.swift */; };
@@ -217,6 +219,8 @@
 		84A87C511F7BC455004A0F51 /* Comics.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Comics.png; sourceTree = "<group>"; };
 		84A87C521F7BC455004A0F51 /* Culture.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Culture.png; sourceTree = "<group>"; };
 		84A87C531F7BC455004A0F51 /* Fashion.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Fashion.png; sourceTree = "<group>"; };
+		84BAA53E1F851F700048FB63 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		84BAA5401F851F780048FB63 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 		8E70DC1D1F6F8ED2002842BF /* Palette.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Palette.swift; sourceTree = "<group>"; };
 		8E70DC231F6FD2D3002842BF /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		8E825E821F7D1C5500DD7D0E /* DatabaseController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatabaseController.swift; sourceTree = "<group>"; };
@@ -236,6 +240,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84BAA5411F851F780048FB63 /* WebKit.framework in Frameworks */,
+				84BAA53F1F851F700048FB63 /* CFNetwork.framework in Frameworks */,
 				8E9BF1951F6D527F0051D734 /* CoreData.framework in Frameworks */,
 				716EF98EBF4EDE7FEA280979 /* Pods_ColoringBook.framework in Frameworks */,
 			);
@@ -505,6 +511,8 @@
 		8E9BF1931F6D527F0051D734 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				84BAA5401F851F780048FB63 /* WebKit.framework */,
+				84BAA53E1F851F700048FB63 /* CFNetwork.framework */,
 				8E9BF1941F6D527F0051D734 /* CoreData.framework */,
 				B473137622193018E996F5FF /* Pods_ColoringBook.framework */,
 			);
